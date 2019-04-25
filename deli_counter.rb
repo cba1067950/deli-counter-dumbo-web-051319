@@ -9,6 +9,7 @@ def line(array)
   else
     array.each_with_index do |item, index|
       puts "#{index}. #{item}"
+    end
   end
 end
 
