@@ -15,11 +15,14 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  #if array.length == 0 
-    array.push(name)
-    puts "Welcome, #{array[array.length-1]}. You are number #{array.length} in line."
+  array.push(name)
+  puts "Welcome, #{array[array.length-1]}. You are number #{array.length} in line."
 end
 
-def now_serving()
-  
+def now_serving(array)
+  if array.length == 0 
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Now serving #{array[0]}."
+  end
 end
