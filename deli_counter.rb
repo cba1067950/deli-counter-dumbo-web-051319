@@ -8,9 +8,9 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index do |item, index|
-      linePosition.push("#{index+1}. #{item} ")
+      linePosition.push(" #{index+1}. #{item}")
     end
-    puts "The line is currently: #{linePosition.join}"
+    puts "The line is currently:#{linePosition.join}"
   end
   
 end
