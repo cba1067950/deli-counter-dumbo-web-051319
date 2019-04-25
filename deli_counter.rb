@@ -12,11 +12,11 @@ def line(array)
     end
     puts "The line is currently:#{linePosition.join}"
   end
-  
 end
 
-def take_a_number()
-  
+def take_a_number(array, name)
+  #if array.length == 0 
+    array.push(name)
 end
 
 def now_serving()
