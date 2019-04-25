@@ -7,6 +7,7 @@ def line(array)
   else
     #array.each_with_index do |item, index|
     puts array
+  end
 end
 
 def take_a_number()
