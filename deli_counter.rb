@@ -11,7 +11,7 @@ def line(array)
       linePosition.push("#{index}. #{item}")
       puts "#{index}. #{item} "
     end
-    #puts "The line is currently: #{linePosition.to_s}"
+    puts "The line is currently: #{linePosition.to_s}"
   end
   
 end
