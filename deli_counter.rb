@@ -8,9 +8,10 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index do |item, index|
-      puts "#{index}. #{item}"
+      linePosition.push("#{index}. #{item}")
     end
   end
+  linePosition
 end
 
 def take_a_number()
