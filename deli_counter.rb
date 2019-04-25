@@ -10,8 +10,9 @@ def line(array)
     array.each_with_index do |item, index|
       linePosition.push("#{index}. #{item}")
     end
+    puts "The line is currently: #{linePosition}"
   end
-  linePosition
+  
 end
 
 def take_a_number()
