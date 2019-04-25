@@ -7,9 +7,8 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
   else
-    puts "The line is currently: "
     array.each_with_index do |item, index|
-      #linePosition.push("#{index}. #{item}")
+      linePosition.push("#{index}. #{item}")
       puts "#{index}. #{item} "
     end
     #puts "The line is currently: #{linePosition.to_s}"
