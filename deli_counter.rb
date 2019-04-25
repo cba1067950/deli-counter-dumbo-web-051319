@@ -17,6 +17,7 @@ end
 def take_a_number(array, name)
   #if array.length == 0 
     array.push(name)
+    puts "Welcome, #{array[array.length-1]}. You are number #{array.length} in line."
 end
 
 def now_serving()
